@@ -258,11 +258,11 @@ class Email {
 
   String? title;
 
-  Recepient? recipient;
+  Recipient? recipient;
 }
 
 @embedded
-class Recepient {
+class Recipient {
   String? name;
 
   String? address;
